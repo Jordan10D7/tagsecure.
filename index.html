@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TagSecure - Sécurisez vos objets</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background: #f9f9f9; color: #222; line-height: 1.6; }
+    header { background: #1e1e2f; color: white; padding: 60px 20px; text-align: center; }
+    header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+    header p { font-size: 1.2rem; max-width: 600px; margin: 0 auto; }
+
+    section { padding: 60px 20px; max-width: 1000px; margin: auto; }
+    h2 { font-size: 1.8rem; margin-bottom: 20px; color: #1e1e2f; }
+
+    .features, .usecases, .testimonials { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+
+    .cta { background: #1e1e2f; color: white; text-align: center; padding: 40px 20px; }
+    .cta h2 { margin-bottom: 10px; }
+    .cta button {
+      margin-top: 20px;
+      background: #00c389;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    footer { background: #efefef; padding: 20px; text-align: center; font-size: 0.9rem; color: #777; }
+
+    @media(max-width: 768px) {
+      .features, .usecases, .testimonials { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>TagSecure</h1>
+  <p>Protégez vos objets connectés avec un système de géolocalisation intelligent et inviolable.</p>
+</header>
+
+<section>
+  <h2>Fonctionnalités clés</h2>
+  <div class="features">
+    <div>- Enregistrement par QR code ou code-barres</div>
+    <div>- Localisation GPS en temps réel</div>
+    <div>- Alerte vol et statut de l'objet</div>
+    <div>- Tableau de bord personnel</div>
+    <div>- Multi-appareils synchronisés</div>
+  </div>
+</section>
+
+<section>
+  <h2>Cas d’usage</h2>
+  <div class="usecases">
+    <div>🔌 Électroménager haut de gamme</div>
+    <div>🔧 Outils professionnels de chantier</div>
+    <div>🎮 Produits tech (VR, consoles...)</div>
+    <div>💼 Matériel de valeur en entreprise</div>
+  </div>
+</section>
+
+<section>
+  <h2>Témoignages</h2>
+  <div class="testimonials">
+    <div><strong>Julien, artisan</strong><br>“J’ai pu retrouver ma perceuse volée grâce à TagSecure !”</div>
+    <div><strong>Claire, passionnée domotique</strong><br>“Je me sens rassurée depuis que j’ai TagSecure.”</div>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Rejoignez la bêta dès maintenant</h2>
+  <p>Inscrivez-vous pour tester TagSecure en avant-première et sécuriser vos objets dès aujourd’hui.</p>
+  <button>Je rejoins la bêta</button>
+</section>
+
+<footer>
+  &copy; 2025 TagSecure. Tous droits réservés.
+</footer>
+
+</body>
+</html>
